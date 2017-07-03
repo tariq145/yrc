@@ -448,6 +448,7 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1200px) {
+
   .timeline > li {
     min-height: 170px;
   }
@@ -604,6 +605,11 @@ body {
   webkit-tap-highlight-color: #EF5B26;
 }
 
+img#the-logo{
+  height: 70%;
+}
+
+/* Last Changes */
 
 div.profil {
   background-color: black;
@@ -611,4 +617,25 @@ div.profil {
   height: 100px;
   border-radius: 50%;
   margin: 0 auto 50px auto;
+}
+
+#about div.col-lg-4{
+  text-align: center;
+}
+
+#about div.col-lg-4 p{
+  margin: 0;
+}
+
+#our-team div.col-lg-12 {
+  text-align: center;
+}
+
+@media (max-width: 1200px){
+  #about div.col-lg-4{
+    margin-bottom: 100px;
+  }
+  #about div.col-lg-4:last-of-type{
+    margin-bottom: 0;
+  }
 }
