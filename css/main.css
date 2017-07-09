@@ -634,3 +634,7 @@ div.profil {
     margin-bottom: 0;
   }
 }
+
+.contact-text {
+  color: green;
+}
