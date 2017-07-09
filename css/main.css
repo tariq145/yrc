@@ -627,6 +627,9 @@ div.profil {
 }
 
 @media (max-width: 1200px){
+  .nav-container{
+    width: 1170px;
+  }
   #about div.col-lg-4{
     margin-bottom: 100px;
   }
