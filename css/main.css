@@ -4,13 +4,13 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: black;
 }
 .text-primary {
   color: #EF5B26;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
@@ -240,7 +240,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 22px;
   margin-bottom: 100px;
 }
@@ -260,7 +260,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 24px;
     line-height: 40px;
     margin-bottom: 50px;
   }
@@ -276,7 +276,7 @@ section {
   padding: 100px 0;
 }
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 55px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -601,43 +601,35 @@ body {
   webkit-tap-highlight-color: #EF5B26;
 }
 
+
+/* Last Changes */
 img#the-logo{
   height: 70%;
 }
 
-/* Last Changes */
-
 div.profil {
   background-color: black;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   margin: 100px auto 0px auto;
-}
-
-#about div.col-lg-4{
-  text-align: center;
-}
-
-#about div.col-lg-4 p{
-  margin: 0;
 }
 
 #our-team div.col-lg-12 {
   text-align: center;
 }
-
-@media (max-width: 1200px){
-  .nav-container{
-    width: 1170px;
-  }
-  #about div.col-lg-4{
-    margin-bottom: 100px;
-  }
-  #about div.col-lg-4:last-of-type{
-    margin-bottom: 0;
-  }
+#customer-service .col-sm-8{
+  float: right;
+}
+#customer-service h1{
+  line-height: 50px;
 }
 
-.contact-text {
-  color: green;
+@media (max-width: 1200px){
+  #services div.col-md-4, #about div.col-lg-4{
+    margin-bottom: 100px;
+  }
+  #services div.col-md-4:last-of-type, #about div.col-lg-4:last-of-type{
+    margin-bottom: 0;
+  }
 }
