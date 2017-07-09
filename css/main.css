@@ -612,6 +612,7 @@ div.profil {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  -moz-border-radius: 50%;
   margin: 100px auto 0px auto;
 }
 
@@ -626,6 +627,7 @@ div.profil {
 }
 
 @media (max-width: 1200px){
+
   #services div.col-md-4, #about div.col-lg-4{
     margin-bottom: 100px;
   }
